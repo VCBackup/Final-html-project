@@ -28,6 +28,7 @@ template{
     background-image: url("wot-masthead-dark.jpg");
     background-position: center;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 #menu-bar-main-image{
     height: 60vh;
