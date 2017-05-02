@@ -3,6 +3,8 @@
 }
 body{
     margin: 0px;
+    border: 0px;
+    padding: 0px;
 }
 a{
     text-decoration: none;
@@ -21,9 +23,11 @@ template{
 
 }
 #menu-bar-main{
+    height: 58vh;
+    width: 100%;
     background-image: url("wot-masthead-dark.jpg");
     background-position: center;
-    background-size: 60vh 100vw;
+    background-size: cover;
 }
 #menu-bar-main-image{
     height: 60vh;
@@ -35,6 +39,5 @@ template{
     letter-spacing: 1px;
     font-family: 'Lato';
     font-size: 15px;
-    font-weight: 700;
-    color: #9CA4A7;
+    color: #FFF;
 }
