@@ -4,6 +4,9 @@
 body{
     margin: 0px;
 }
+a{
+    text-decoration: none;
+}
 template{
     color: #C8E23A;
     color: #F78140;
@@ -16,4 +19,22 @@ template{
     font-family: 'Oswald';
     font-family: "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana;
 
+}
+#menu-bar-main{
+    background-image: url("wot-masthead-dark.jpg");
+    background-position: center;
+    background-size: 60vh 100vw;
+}
+#menu-bar-main-image{
+    height: 60vh;
+    width: 100vw;
+
+}
+.menu-bar-options{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Lato';
+    font-size: 15px;
+    font-weight: 700;
+    color: #9CA4A7;
 }
