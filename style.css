@@ -13,32 +13,126 @@ template{
     color: #C8E23A;
     color: #F78140;
     color: #40666D;
-    color: #8E989B;
+    color: #A6BBC1;
     color: #9CA4A7;
+    color: #8E989B;
     color: #6A787C;
+
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-family: 'Lato', sans-serif;
     font-family: 'Oswald';
     font-family: "Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana;
 
 }
-#menu-bar-main{
-    height: 58vh;
+@media (min-width: 300px) {
+    .menu-bar-options{
+        display: none;
+    }
+    #menu-bar-main{
+    height: 48vh;
     width: 100%;
     background-image: url("wot-masthead-dark.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-#menu-bar-main-image{
-    height: 60vh;
-    width: 100vw;
+    #white-bar-main{
+        display: block;
+        height: 10vh;
+        width: 100%;
+        background-color: #FFF;
+    }
+    #hamburger-menu-bar{
+        display: block;
 
+    }
+    #wot-logo1{
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 9vh;
+        width: 11vw;
+        display: block;
+        margin: 0vh 3vh;
+    }
+    #hamburger-icon{
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin: 4vh 4vh;
+        height: 20px;
+        width: 20px;
+    }
+    #hamburger-menu{
+        height: 100%;
+        width: 100%;
+        background-color: #FFF;
+        display: none;
+    }
+    .navigating{
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-family: 'Lato';
+        font-size: 15px;
+        color: #8E989B;
+        display: list-item;
+        list-style: none;
+        padding: 14px 2px;
+    }
+    #dd-hamburger{
+        height: 100%;
+        width: 100%;
+        margin-top: 80px;
+        padding-left: 25px
+    }
+    #yd-text{
+        letter-spacing: 1px;
+        font-size: 24px;
+        font-family: 'Oswald';
+        font-weight: bold;
+        text-transform: uppercase;
+        text-align: center;
+
+
+    }
+    #workshop-text{
+        font-size: 60px;
+        font-family: 'Oswald';
+
+    }
+    #bb-text{
+        font-size: 25px;
+        font-family: 'Oswald';
+
+    }
+    #lm-button{
+        font-size: 25px;
+        font-family: 'Open Sans';
+
+    }
 }
-.menu-bar-options{
+
+@media (min-width: 478px) {
+    .menu-bar-options{
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    
+}
+
+@media (min-width: 998px) {
+    
+}
+
+@media (min-width: 1198px) {
+    .menu-bar-options{
     text-transform: uppercase;
     letter-spacing: 1px;
     font-family: 'Lato';
     font-size: 15px;
     color: #FFF;
+}
 }
