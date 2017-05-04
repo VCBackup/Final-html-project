@@ -129,7 +129,22 @@ template{
     }
     #ideas-text{
         color: #C8E23A;
-
+    }
+    #left-box{
+        position: absolute;
+        height: 1.2vh;
+        width: 11vw;
+        background-color: white;
+        top: 182px;
+        left: 34px;
+    }
+        #right-box{
+        position: absolute;
+        height: 1.2vh;
+        width: 11vw;
+        background-color: white;
+        top: 182px;
+        right: 48px;
     }
     #lm-button{
         background-color: #C8E23A;
@@ -148,6 +163,16 @@ template{
         right: 15px;
         border-radius: 30px;
         letter-spacing: 1px;
+    }
+    #description-main{
+        background-color: #F0F0F0;
+        margin: 0;
+    }
+    #description-text{
+        margin: 0;
+        font-family: 'Open Sans';
+        text-align: center;
+        font-size: 25px;
     }
 }
 
